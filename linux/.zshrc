@@ -22,9 +22,9 @@ zinit light-mode for \
 zinit ice lucid wait='0' atload='_zsh_autosuggest_start'
 zinit light zsh-users/zsh-autosuggestions
 
-zinit wait"0" lucid light-mode for \
-    zdharma-continuum/fast-syntax-highlighting \
-    zdharma-continuum/history-search-multi-word
+zinit wait"0" lucid light-mode for zdharma-continuum/history-search-multi-word
+zinit ice lucid
+zinit light zdharma-continuum/fast-syntax-highlighting
 
 zinit snippet OMZL::clipboard.zsh
 zinit snippet OMZL::history.zsh
@@ -62,7 +62,7 @@ export TIME_STYLE=long-iso
 
 ## alias
 alias cls='clear'
-alias ls='ls --color=always --time-style="+%Y-%m-%d %H:%M:%S"'
+alias ls='ls --color=auto --time-style="+%Y-%m-%d %H:%M:%S"'
 alias less='less -R'
 alias vi='vim'
 alias grep="grep --color=auto"
