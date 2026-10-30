@@ -79,4 +79,5 @@ alias -s java=vi
 alias -s txt=vi
 
 ## load other config
-source ~/.profile
+[ -f "$HOME/.profile" ] && . "$HOME/.profile"
+
